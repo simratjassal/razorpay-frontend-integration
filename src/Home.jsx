@@ -19,15 +19,15 @@ const Home = () => {
             key,
             amount: order.amount,
             currency: "INR",
-            name: "Simrat Jassal",
+            name: "Made by Simrat Jassal",
             description: "Tutorial of RazorPay",
             // image: "https://avatars.githubusercontent.com/u/25058652?v=4",
             order_id: order.id,
             callback_url: "https://razorpay-backend-integration.onrender.com/api/paymentverification",
             prefill: {
-                name: "Gaurav Kumar",
-                email: "gaurav.kumar@example.com",
-                contact: "9999999999"
+                name: "Simratjot Singh",
+                email: "simrat@example.com",
+                contact: "8566920464"
             },
             notes: {
                 "address": "Razorpay Corporate Office"
